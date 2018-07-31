@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Product>Lykke.RabbitMq.Mongo</Product>
+    <Company>Lykke</Company>
+    <Authors>Lykke</Authors>
+    <Version>1.0.1</Version>
+    <Description>Mongo integration for Lykke.RabbitMqBroker</Description>
+    <PackageProjectUrl>https://github.com/LykkeCity/Lykke.RabbitMq.Mongo</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LykkeCity/Lykke.RabbitMq.Mongo</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/14153330?v=3&amp;amp;s=200</PackageIconUrl>
+    <PackageTags>Lykke</PackageTags>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Lykke.RabbitMq.Mongo.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Lykke.RabbitMq.Mongo.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Lykke.RabbitMqBroker" Version="7.2.0" />
+    <PackageReference Include="Lykke.SettingsReader" Version="2.4.1" />
+    <PackageReference Include="MessagePack" Version="1.7.3.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Deduplicator" />
+  </ItemGroup>
+</Project>
