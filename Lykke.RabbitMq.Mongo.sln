@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.RabbitMq.Mongo", "src\Lykke.RabbitMq.Mongo\Lykke.RabbitMq.Mongo.csproj", "{909767C3-DE1C-4CB3-A008-9DCCFB102288}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{73A340A7-90FC-4770-8D88-6FD979FAC19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.RabbitMq.Mongo.Tests", "tests\Lykke.RabbitMq.Mongo.Tests\Lykke.RabbitMq.Mongo.Tests.csproj", "{BA7CD92D-A613-4AB6-8B31-0442B1531154}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,20 @@ Global
 		{909767C3-DE1C-4CB3-A008-9DCCFB102288}.Release|x64.Build.0 = Release|Any CPU
 		{909767C3-DE1C-4CB3-A008-9DCCFB102288}.Release|x86.ActiveCfg = Release|Any CPU
 		{909767C3-DE1C-4CB3-A008-9DCCFB102288}.Release|x86.Build.0 = Release|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Debug|x64.Build.0 = Debug|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Debug|x86.Build.0 = Debug|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Release|x64.ActiveCfg = Release|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Release|x64.Build.0 = Release|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Release|x86.ActiveCfg = Release|Any CPU
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA7CD92D-A613-4AB6-8B31-0442B1531154} = {73A340A7-90FC-4770-8D88-6FD979FAC19B}
 	EndGlobalSection
 EndGlobal
